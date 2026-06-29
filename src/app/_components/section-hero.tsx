@@ -1,0 +1,50 @@
+import { Badge } from "@/components/ui/badge";
+
+export function SectionHero() {
+  return (
+    <section
+      id="hero"
+      className="relative overflow-hidden bg-gradient-to-br from-[#032D60] via-[#0176D3] to-[#1B96FF] py-24 px-6 md:px-10"
+    >
+      {/* Subtle pattern */}
+      <div className="absolute inset-0 opacity-10">
+        <div className="absolute top-10 right-20 h-64 w-64 rounded-full bg-white/20 blur-3xl" />
+        <div className="absolute bottom-10 left-10 h-48 w-48 rounded-full bg-white/10 blur-2xl" />
+      </div>
+
+      <div className="relative mx-auto max-w-5xl">
+        <div className="flex flex-wrap gap-2 mb-6">
+          <Badge className="bg-white/20 text-white border-white/30 hover:bg-white/30">
+            SE Enablement
+          </Badge>
+          <Badge className="bg-white/20 text-white border-white/30 hover:bg-white/30">
+            AI Cost Strategy
+          </Badge>
+        </div>
+
+        <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">
+          From Tokenmaxxing to
+          <br />
+          Right-Sized AI
+        </h1>
+        <p className="text-xl md:text-2xl text-white/90 font-light mb-2">
+          The SE Playbook for AI Cost Conversations
+        </p>
+        <p className="text-base md:text-lg text-white/70 max-w-2xl mt-6">
+          Companies are burning through AI budgets with unrestricted frontier
+          model access. This playbook helps you position Salesforce as the
+          architectural solution — predictable pricing, intelligent
+          orchestration, and financial guardrails for enterprise AI.
+        </p>
+
+        <div className="mt-10 flex flex-wrap gap-4 text-sm text-white/60">
+          <span>8 sections</span>
+          <span className="text-white/30">|</span>
+          <span>Internal only</span>
+          <span className="text-white/30">|</span>
+          <span>Updated June 2026</span>
+        </div>
+      </div>
+    </section>
+  );
+}
