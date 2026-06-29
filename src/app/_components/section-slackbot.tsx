@@ -235,7 +235,7 @@ export function SectionSlackbot() {
       {/* Stat row */}
       <div className="rounded-xl bg-gradient-to-r from-teal-500/5 to-teal-300/5 border p-8 mb-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
-          <StatCallout value="Unmetered" label="No per-token billing" />
+          <StatCallout value="Unmetered" label="Unmetered functionality" />
           <StatCallout value="Multi-System" label="Any MCP server (SF, Jira, Snowflake...)" />
           <StatCallout value="Slack Sidebar" label="Zero adoption curve" />
         </div>
