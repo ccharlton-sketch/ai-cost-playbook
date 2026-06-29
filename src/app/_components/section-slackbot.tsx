@@ -32,6 +32,30 @@ export function SectionSlackbot() {
         <h2 className="text-3xl font-bold">Slackbot + MCP</h2>
       </div>
 
+      {/* Caveat */}
+      <div className="rounded-lg border border-amber-300 bg-amber-50 p-5 mb-8">
+        <p className="text-sm font-semibold text-amber-800 mb-2">
+          ⚠ Licensing Caveat — Confirm Before Quoting
+        </p>
+        <ul className="space-y-2 text-sm text-amber-900">
+          <li className="flex items-start gap-2">
+            <span className="font-bold mt-0.5">•</span>
+            <span>
+              Check with the Slack team on Salesforce MCP pricing and packaging
+              before positioning this to a customer.
+            </span>
+          </li>
+          <li className="flex items-start gap-2">
+            <span className="font-bold mt-0.5">•</span>
+            <span>
+              If every user needs access to Salesforce data through the Slackbot,
+              this could require Headless 360 licensing — which adds additional
+              per-user cost on top of the Slackbot PUPM add-on.
+            </span>
+          </li>
+        </ul>
+      </div>
+
       {/* Key value prop */}
       <div className="rounded-xl bg-gradient-to-r from-teal-700 to-teal-500 p-8 mb-8 text-white">
         <p className="text-lg font-medium mb-2">
@@ -215,30 +239,6 @@ export function SectionSlackbot() {
           <StatCallout value="Multi-System" label="Any MCP server (SF, Jira, Snowflake...)" />
           <StatCallout value="Slack Sidebar" label="Zero adoption curve" />
         </div>
-      </div>
-
-      {/* Caveat */}
-      <div className="rounded-lg border border-amber-300 bg-amber-50 p-5 mb-8">
-        <p className="text-sm font-semibold text-amber-800 mb-2">
-          ⚠ Licensing Caveat — Confirm Before Quoting
-        </p>
-        <ul className="space-y-2 text-sm text-amber-900">
-          <li className="flex items-start gap-2">
-            <span className="font-bold mt-0.5">•</span>
-            <span>
-              Check with the Slack team on Salesforce MCP pricing and packaging
-              before positioning this to a customer.
-            </span>
-          </li>
-          <li className="flex items-start gap-2">
-            <span className="font-bold mt-0.5">•</span>
-            <span>
-              If every user needs access to Salesforce data through the Slackbot,
-              this could require Headless 360 licensing — which adds additional
-              per-user cost on top of the Slackbot PUPM add-on.
-            </span>
-          </li>
-        </ul>
       </div>
 
       {/* Ideal customer */}
