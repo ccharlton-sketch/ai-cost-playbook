@@ -96,11 +96,11 @@ export function SectionShift() {
       {/* Stat comparison */}
       <div className="rounded-xl bg-gradient-to-r from-[#0176D3]/5 to-[#1B96FF]/5 border p-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
-          <StatCallout value="Predictable" label="Fixed PUPM or per-action pricing" />
+          <StatCallout value="Unbounded" label="$500+/user/month with no ceiling" />
           <div className="text-center text-2xl font-bold text-muted-foreground">
             vs.
           </div>
-          <StatCallout value="Unbounded" label="$500+/user/month with no ceiling" />
+          <StatCallout value="Predictable" label="Fixed PUPM or per-action pricing" />
         </div>
       </div>
     </SectionWrapper>
